@@ -4,15 +4,15 @@ public class Main {
     public static void main(String[] args) {
         Lista lista = new Lista();
         /*
-        lista.insertar(12);
-        lista.insertar(21);
-        lista.insertar(12312);
+        lista.insertar(10);
+        lista.insertar(11);
+        lista.insertar(54214);
         lista.radixSort();
         
         */
         for(int i = 0; i < 1000001; ++i){
-            Random R = new Random();
-            int x = R.nextInt(100001);
+            Random Rand = new Random();
+            int x = Rand.nextInt(100001);
 
             lista.insertar(x);
         }
